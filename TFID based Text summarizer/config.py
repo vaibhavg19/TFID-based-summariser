@@ -1,0 +1,2 @@
+POS_TAG_LIST = ["NN", "NNP", "NNS", "VB", "VBD", "VBG", "VBN", "VBP", "VBZ"]
+INFORMATION_WEIGHT=20

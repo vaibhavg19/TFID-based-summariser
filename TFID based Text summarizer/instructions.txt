@@ -1,0 +1,13 @@
+How the program is created?
+1. spilt paragraph into sentences
+2. remove stopwords, special characters etc
+3. calculate tf, tdf and tf-idf = tf * idf
+4. with a base score of 1 for each sentences, add word score (tf-idf) of each word in the sentence and obtain the sentence score
+5. sort the sentences in the decreasing order of their scores
+6. top `n` sentences contains the maximum information if the source.
+
+How to run?
+1. run `python summarize.py`
+2. before that you need to install nltk library and download                     necessary files like stopwords etc.
+3. The program randomly chooses an article in the files folder, which contains 4 at present and returns the summary.
+4. TF-IDF model only returns accurate summaries if the input text/data is rich in information about a particular topic. Else it just doesn't make any sense.
